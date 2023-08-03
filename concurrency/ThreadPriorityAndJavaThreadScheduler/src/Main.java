@@ -1,29 +1,25 @@
 import java.lang.Runnable;
 
-class Runner1 implements Runnable{
+class Runner implements Runnable{
     @Override
     public void run() {
-        while (true) {
-            try {
-                Thread.sleep(500);
-                System.out.println("Daemon thread is printing");
-            }
-            catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+        for (int i = 0; i < 50; i++) {
+            System.out.println("Runner: "+i);
         }
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        Runnable runner1 = new Runner1();
-        Thread t1 = new Thread(runner1);
+        Runnable runner = new Runner();
+        Thread t = new Thread(runner);
+        t.setPriority(Thread.MAX_PRIORITY);
 
-        t1.setPriority(Thread.MAX_PRIORITY);
+        System.out.println("User thread priority:- " + t.getPriority());
+        System.out.println("Main thread priority:- " + Thread.currentThread().getPriority());
 
-        System.out.println();
+        t.start();
 
-        Thread.currentThread().getPriority();
+        System.out.println("Main thread prints");
     }
 }

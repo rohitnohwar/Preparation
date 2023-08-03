@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Preparation.iml" filepath="$PROJECT_DIR$/.idea/Preparation.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/RunningThreadsUsingRunnableInterface/RunningThreadsUsingRunnableInterface.iml" filepath="$PROJECT_DIR$/concurrency/RunningThreadsUsingRunnableInterface/RunningThreadsUsingRunnableInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/RunningThreadsUsingThreadAbstractClass/RunningThreadsUsingThreadAbstractClass.iml" filepath="$PROJECT_DIR$/concurrency/RunningThreadsUsingThreadAbstractClass/RunningThreadsUsingThreadAbstractClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/ThreadPriorityAndJavaThreadScheduler/ThreadPriorityAndJavaThreadScheduler.iml" filepath="$PROJECT_DIR$/concurrency/ThreadPriorityAndJavaThreadScheduler/ThreadPriorityAndJavaThreadScheduler.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/WaitingForThreadsToFinishUsingJoin/WaitingForThreadsToFinishUsingJoin.iml" filepath="$PROJECT_DIR$/concurrency/WaitingForThreadsToFinishUsingJoin/WaitingForThreadsToFinishUsingJoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/concurrency.iml" filepath="$PROJECT_DIR$/concurrency/concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/graph/graph.iml" filepath="$PROJECT_DIR$/graph/graph.iml" />
