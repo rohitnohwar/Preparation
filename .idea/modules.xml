@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementaion2/BuilderPatternImplementaion2.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementaion2/BuilderPatternImplementaion2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementation1/BuilderPatternImplementation1.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementation1/BuilderPatternImplementation1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/CreationalPatterns.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/CreationalPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/DaemonThreadsAndUserThreads/DaemonThreadsAndUserThreads.iml" filepath="$PROJECT_DIR$/concurrency/DaemonThreadsAndUserThreads/DaemonThreadsAndUserThreads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/lld/Patterns/Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Preparation.iml" filepath="$PROJECT_DIR$/.idea/Preparation.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/RunningThreadsUsingRunnableInterface/RunningThreadsUsingRunnableInterface.iml" filepath="$PROJECT_DIR$/concurrency/RunningThreadsUsingRunnableInterface/RunningThreadsUsingRunnableInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/RunningThreadsUsingThreadAbstractClass/RunningThreadsUsingThreadAbstractClass.iml" filepath="$PROJECT_DIR$/concurrency/RunningThreadsUsingThreadAbstractClass/RunningThreadsUsingThreadAbstractClass.iml" />
