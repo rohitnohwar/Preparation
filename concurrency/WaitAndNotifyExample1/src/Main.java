@@ -17,7 +17,7 @@ class WaitAndNotify {
         synchronized (this) {
             try {
                 Thread.sleep(1000);
-                System.out.println("In process2");
+                System.out.println("In process2 before notify()");
                 // Code after notify() executes before notify()
                 notify();
                 System.out.println("Still in process2. This will execute before notify()");
