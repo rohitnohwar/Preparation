@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/DaemonThreadsAndUserThreads/DaemonThreadsAndUserThreads.iml" filepath="$PROJECT_DIR$/concurrency/DaemonThreadsAndUserThreads/DaemonThreadsAndUserThreads.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryMethodPattern/FactoryMethodPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryMethodPattern/FactoryMethodPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/Lock-ReentrantLock/Lock-ReentrantLock.iml" filepath="$PROJECT_DIR$/concurrency/Lock-ReentrantLock/Lock-ReentrantLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/LockingWithCustomObjects/LockingWithCustomObjects.iml" filepath="$PROJECT_DIR$/concurrency/LockingWithCustomObjects/LockingWithCustomObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/lld/Patterns/Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Preparation.iml" filepath="$PROJECT_DIR$/.idea/Preparation.iml" />
