@@ -4,7 +4,9 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
-    private static final Lock lock = new ReentrantLock();
+    // Constructor to set boolean fairness parameter.
+    // If true, the longest waiting thread will get it.
+    private static final Lock lock = new ReentrantLock(true);
     private static int counter = 0;
 
     private static void increment() {
