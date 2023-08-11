@@ -13,6 +13,7 @@ public class Main {
         for (int i = 0; i < 10000; i++) {
             lock.lock();
             Main.counter++;
+            //Can unlock the lock in a different method also
             lock.unlock();
         }
     }
