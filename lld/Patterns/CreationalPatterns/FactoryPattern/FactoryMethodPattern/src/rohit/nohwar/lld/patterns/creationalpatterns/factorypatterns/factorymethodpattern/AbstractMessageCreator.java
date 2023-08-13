@@ -3,11 +3,11 @@ package rohit.nohwar.lld.patterns.creationalpatterns.factorypatterns.factorymeth
 import rohit.nohwar.lld.patterns.creationalpatterns.factorypatterns.factorymethodpattern.message.AbstractMessage;
 
 public abstract class AbstractMessageCreator {
-    public String getMessage() {
+    public AbstractMessage getMessage() {
         AbstractMessage message = createMessage();
         message.addHeaders();
         message.encrypt();
-        return message.getContent();
+        return message;
     }
 
     public abstract AbstractMessage createMessage();
