@@ -30,6 +30,7 @@ public class Main {
         lock1.unlock();
     }
 
+    //To avoid deadlocks we can acquire locks in the same order
     public static void main(String[] args) {
         Thread t1 = new Thread() {
             public void run() {
