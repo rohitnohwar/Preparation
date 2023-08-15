@@ -2,10 +2,9 @@ package rohit.nohwar.lld.patterns.creationalpatterns.factorypatterns.factorymeth
 
 import rohit.nohwar.lld.patterns.creationalpatterns.factorypatterns.factorymethodpattern.message.AbstractMessage;
 import rohit.nohwar.lld.patterns.creationalpatterns.factorypatterns.factorymethodpattern.message.JsonMessage;
-import rohit.nohwar.lld.patterns.creationalpatterns.factorypatterns.factorymethodpattern.message.TextMessage;
 
-public class TextMessageCreator extends AbstractMessageCreator{
+public class JsonMessageFactory extends AbstractMessageFactory{
     public AbstractMessage createMessage() {
-        return new TextMessage();
+        return new JsonMessage();
     }
 }

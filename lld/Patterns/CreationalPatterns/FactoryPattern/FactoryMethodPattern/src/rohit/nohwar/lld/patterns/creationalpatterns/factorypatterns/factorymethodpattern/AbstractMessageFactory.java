@@ -2,7 +2,7 @@ package rohit.nohwar.lld.patterns.creationalpatterns.factorypatterns.factorymeth
 
 import rohit.nohwar.lld.patterns.creationalpatterns.factorypatterns.factorymethodpattern.message.AbstractMessage;
 
-public abstract class AbstractMessageCreator {
+public abstract class AbstractMessageFactory {
     public AbstractMessage getMessage() {
         AbstractMessage message = createMessage();
         message.addHeaders();
