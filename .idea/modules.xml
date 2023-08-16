@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/FixedThreadPoolExecutor/FixedThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/concurrency/FixedThreadPoolExecutor/FixedThreadPoolExecutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/InitializationHolderSingleton/InitializationHolderSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/InitializationHolderSingleton/InitializationHolderSingleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/InterruptCurrentThread/InterruptCurrentThread.iml" filepath="$PROJECT_DIR$/concurrency/InterruptCurrentThread/InterruptCurrentThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/LazySingleton/LazySingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/LazySingleton/LazySingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/DeadLock/LiveLock/LiveLock.iml" filepath="$PROJECT_DIR$/concurrency/DeadLock/LiveLock/LiveLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/Lock-ReentrantLock/Lock-ReentrantLock.iml" filepath="$PROJECT_DIR$/concurrency/Lock-ReentrantLock/Lock-ReentrantLock.iml" />
