@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/RunningThreadsUsingRunnableInterface/RunningThreadsUsingRunnableInterface.iml" filepath="$PROJECT_DIR$/concurrency/RunningThreadsUsingRunnableInterface/RunningThreadsUsingRunnableInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/RunningThreadsUsingThreadAbstractClass/RunningThreadsUsingThreadAbstractClass.iml" filepath="$PROJECT_DIR$/concurrency/RunningThreadsUsingThreadAbstractClass/RunningThreadsUsingThreadAbstractClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/ScheduledThreadPoolExecutor/ScheduledThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/concurrency/ScheduledThreadPoolExecutor/ScheduledThreadPoolExecutor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/Semaphores/Semaphores.iml" filepath="$PROJECT_DIR$/concurrency/Semaphores/Semaphores.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/SimpleFactoryPattern/SimpleFactoryPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/SimpleFactoryPattern/SimpleFactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/SingleThreadPoolExecutor/SingleThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/concurrency/SingleThreadPoolExecutor/SingleThreadPoolExecutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/SingletonPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/SingletonPattern.iml" />
