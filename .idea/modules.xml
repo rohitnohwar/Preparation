@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementation1/BuilderPatternImplementation1.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementation1/BuilderPatternImplementation1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementation2/BuilderPatternImplementation2.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementation2/BuilderPatternImplementation2.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/CachedThreadPoolExecutor/CachedThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/concurrency/CachedThreadPoolExecutor/CachedThreadPoolExecutor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/CallableAndFutureExample/CallableAndFutureExample.iml" filepath="$PROJECT_DIR$/concurrency/CallableAndFutureExample/CallableAndFutureExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/CreationalPatterns.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/CreationalPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/DaemonThreadsAndUserThreads/DaemonThreadsAndUserThreads.iml" filepath="$PROJECT_DIR$/concurrency/DaemonThreadsAndUserThreads/DaemonThreadsAndUserThreads.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/DeadLock/DeadLock.iml" filepath="$PROJECT_DIR$/concurrency/DeadLock/DeadLock.iml" />
