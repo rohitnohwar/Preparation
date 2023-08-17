@@ -8,6 +8,7 @@ public class Main {
 
         CloneablePreventionSingleton instance2 = CloneablePreventionSingleton.getInstance();
 
+        // Throws exception as we wanted it not to clone
         CloneablePreventionSingleton instance3 = instance1.clone();
     }
 }
