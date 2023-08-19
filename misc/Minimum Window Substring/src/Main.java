@@ -1,4 +1,4 @@
-class Main {
+class Solution {
     public String minWindow(String s, String t) {
         Map<Character, Integer> sCount = new HashMap<>();
         Map<Character, Integer> tCount = new HashMap<>();
@@ -14,12 +14,12 @@ class Main {
 
 
         for (int right = 0; right < s.length(); right++) {
-            if (!tCount.containsKey(s.charAt(right))) continue;
+            char rightChar = s.charAt(right);
+            if (!tCount.containsKey(rightChar)) continue;
 
-            sCount.put(s.charAt(right), sCount.getOrDefault(s.charAt(right), 0)+1);
+            sCount.put(rightChar, sCount.getOrDefault(rightChar, 0)+1);
 
-            if (tCount.containsKey(s.charAt(right)) && sCount.get((s.charAt(right))) .equals(  tCount.get(s.charAt(right) ))) {
-
+            if (sCount.get((rightChar)).equals(tCount.get(rightChar))) {
                 have+=1;
             }
 
@@ -29,10 +29,11 @@ class Main {
                     leftAns = left;
                 }
 
-                if (tCount.containsKey(s.charAt(left))) {
-                    sCount.put(s.charAt(left), sCount.get(s.charAt(left)) - 1);
+                char leftChar = s.charAt(left);
+                if (tCount.containsKey(leftChar)) {
+                    sCount.put(leftChar, sCount.get(leftChar) - 1);
 
-                    if (tCount.containsKey(s.charAt(left)) && tCount.get(s.charAt(left)) > sCount.get(s.charAt(left))) {
+                    if (tCount.get(leftChar) > sCount.get(leftChar)) {
                         have--;
                     }
                 }
