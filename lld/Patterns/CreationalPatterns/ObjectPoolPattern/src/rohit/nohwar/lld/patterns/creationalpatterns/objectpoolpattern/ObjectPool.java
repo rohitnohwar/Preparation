@@ -2,7 +2,6 @@ package rohit.nohwar.lld.patterns.creationalpatterns.objectpoolpattern;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
