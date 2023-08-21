@@ -3,8 +3,8 @@
 package rohit.nohwar.lld.patterns.creationalpatterns.factorypatterns.factorymethodpattern;
 public class Main {
     public static void main(String[] args) {
-        AbstractMessageCreator jsonMessageCreator = new JsonMessageCreator();
-        AbstractMessageCreator textMessageCreator = new TextMessageCreator();
+        AbstractMessageFactory jsonMessageCreator = new JsonMessageFactory();
+        AbstractMessageFactory textMessageCreator = new TextMessageFactory();
 
         System.out.println(jsonMessageCreator.getMessage());
         System.out.println(textMessageCreator.getMessage());
