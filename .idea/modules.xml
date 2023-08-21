@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/Lock-ReentrantLock/Lock-ReentrantLock.iml" filepath="$PROJECT_DIR$/concurrency/Lock-ReentrantLock/Lock-ReentrantLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/LockingWithCustomObjects/LockingWithCustomObjects.iml" filepath="$PROJECT_DIR$/concurrency/LockingWithCustomObjects/LockingWithCustomObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/Minimum Window Substring/Minimum Window Substring.iml" filepath="$PROJECT_DIR$/misc/Minimum Window Substring/Minimum Window Substring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/ObjectPoolPattern/ObjectPoolPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/ObjectPoolPattern/ObjectPoolPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/lld/Patterns/Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Preparation.iml" filepath="$PROJECT_DIR$/.idea/Preparation.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/PrototypePattern/PrototypePattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/PrototypePattern/PrototypePattern.iml" />
