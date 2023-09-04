@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/CyclicBarrier/CyclicBarrier.iml" filepath="$PROJECT_DIR$/concurrency/CyclicBarrier/CyclicBarrier.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/DaemonThreadsAndUserThreads/DaemonThreadsAndUserThreads.iml" filepath="$PROJECT_DIR$/concurrency/DaemonThreadsAndUserThreads/DaemonThreadsAndUserThreads.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/DeadLock/DeadLock.iml" filepath="$PROJECT_DIR$/concurrency/DeadLock/DeadLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/DelayQueue/DelayQueue.iml" filepath="$PROJECT_DIR$/concurrency/DelayQueue/DelayQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EagerSingleton/EagerSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EagerSingleton/EagerSingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EnumSingleton/EnumSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EnumSingleton/EnumSingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryMethodPattern/FactoryMethodPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryMethodPattern/FactoryMethodPattern.iml" />
