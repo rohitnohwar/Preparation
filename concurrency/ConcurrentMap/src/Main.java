@@ -6,7 +6,8 @@ import java.util.concurrent.PriorityBlockingQueue;
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+        // Locks on segments instead of the whole map
         ConcurrentMap<Integer, Integer> map= new ConcurrentHashMap<>();
 
         Thread t1 = new Thread() {
@@ -37,5 +38,9 @@ public class Main {
 
         t1.start();
         t2.start();
+        t1.join();
+        t2.join();
+
+        System.out.println(map);
     }
 }
