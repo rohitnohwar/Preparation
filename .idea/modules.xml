@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ClassAdapterPattern/ClassAdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ClassAdapterPattern/ClassAdapterPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSin gleton/CloneablePreventionSin gleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSin gleton/CloneablePreventionSin gleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSingleton/CloneablePreventionSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSingleton/CloneablePreventionSingleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/ConcurrentMap/ConcurrentMap.iml" filepath="$PROJECT_DIR$/concurrency/ConcurrentMap/ConcurrentMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/CreationalPatterns.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/CreationalPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/CyclicBarrier/CyclicBarrier.iml" filepath="$PROJECT_DIR$/concurrency/CyclicBarrier/CyclicBarrier.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/DaemonThreadsAndUserThreads/DaemonThreadsAndUserThreads.iml" filepath="$PROJECT_DIR$/concurrency/DaemonThreadsAndUserThreads/DaemonThreadsAndUserThreads.iml" />
