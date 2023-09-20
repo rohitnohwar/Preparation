@@ -1,33 +1,30 @@
 import java.util.concurrent.ForkJoinPool;
-import java.util.concurrent.RecursiveAction;
+import java.util.concurrent.RecursiveTask;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-class Worker extends RecursiveAction {
+class Worker extends RecursiveTask<Integer> {
     int num;
     public Worker(int num) {
         this.num = num;
     }
-    public void compute() {
+    public Integer compute() {
         if (num > 100) {
             System.out.println("Splitting task");
-            RecursiveAction action1 = new Worker(num / 2);
-            RecursiveAction action2 = new Worker(num / 2);
+            RecursiveTask action1 = new Worker(num / 2);
+            RecursiveTask action2 = new Worker(num / 2);
 
-            // Alternative 1
+            int subSolution = 0;
             action1.fork();
             action2.fork();
 
-            action1.join();
-            action2.join();
+            subSolution += (int) action1.join();
+            subSolution += (int) action2.join();
 
-            // Alternative 2
-//            invokeAll(action1, action2);
-
-
+            return subSolution;
         }
         else {
-            for (int i = 1; i < num; i++) System.out.println(i);
+            return num;
         }
     }
 }
@@ -35,8 +32,7 @@ class Worker extends RecursiveAction {
 public class Main {
     public static void main(String[] args) {
         ForkJoinPool pool = new ForkJoinPool();
-        RecursiveAction action = new Worker(1000);
-        action.fork();
-        action.join();
+        RecursiveTask action = new Worker(1000);
+        System.out.println(pool.invoke(action));
     }
 }
