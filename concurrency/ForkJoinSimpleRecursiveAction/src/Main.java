@@ -36,7 +36,8 @@ public class Main {
     public static void main(String[] args) {
         ForkJoinPool pool = new ForkJoinPool();
         RecursiveAction action = new Worker(1000);
-        action.fork();
-        action.join();
+        pool.invoke(action);
+//        action.fork();
+//        action.join();
     }
 }
