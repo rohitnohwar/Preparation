@@ -11,7 +11,7 @@ public class ImageProxy implements ImageInteface{
     }
 
     public void printName() {
-        if (image == null) {
+        if (image == null) {     // Virtual proxy
             image = new Image(name, allowedToBeShown);
         }
 
@@ -19,11 +19,11 @@ public class ImageProxy implements ImageInteface{
     }
 
     public void showImage() throws IllegalAccessException {
-        if (allowedToBeShown == false) {
+        if (allowedToBeShown == false) {   // Protection proxy
             throw new IllegalAccessException();
         }
 
-        if (image == null) {
+        if (image == null) {    // Virtual proxy
             image = new Image(name, allowedToBeShown);
         }
 
