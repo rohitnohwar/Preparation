@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/CachedThreadPoolExecutor/CachedThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/concurrency/CachedThreadPoolExecutor/CachedThreadPoolExecutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/CallableAndFutureExample/CallableAndFutureExample.iml" filepath="$PROJECT_DIR$/concurrency/CallableAndFutureExample/CallableAndFutureExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/LLD/Chess/Chess.iml" filepath="$PROJECT_DIR$/lld/LLD/Chess/Chess.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ClassAdapterPattern/ClassAdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ClassAdapterPattern/ClassAdapterPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSin gleton/CloneablePreventionSin gleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSin gleton/CloneablePreventionSin gleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSingleton/CloneablePreventionSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSingleton/CloneablePreventionSingleton.iml" />
@@ -38,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveTaskWhichReturnsValue/ForkJoinSimpleRecursiveTaskWhichReturnsValue.iml" filepath="$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveTaskWhichReturnsValue/ForkJoinSimpleRecursiveTaskWhichReturnsValue.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/InitializationHolderSingleton/InitializationHolderSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/InitializationHolderSingleton/InitializationHolderSingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/InterruptCurrentThread/InterruptCurrentThread.iml" filepath="$PROJECT_DIR$/concurrency/InterruptCurrentThread/InterruptCurrentThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/LLD/LLD.iml" filepath="$PROJECT_DIR$/lld/LLD/LLD.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/Latch/Latch.iml" filepath="$PROJECT_DIR$/concurrency/Latch/Latch.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/LazySingleton/LazySingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/LazySingleton/LazySingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/LiveLock/LiveLock.iml" filepath="$PROJECT_DIR$/concurrency/LiveLock/LiveLock.iml" />

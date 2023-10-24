@@ -5,7 +5,7 @@ public class LazyRegisteryWithSubClass {
 
     }
 
-    private static class RegistryHolder {
+    private class RegistryHolder {
         private static final LazyRegisteryWithSubClass INSTANCE = new LazyRegisteryWithSubClass();
     }
 
