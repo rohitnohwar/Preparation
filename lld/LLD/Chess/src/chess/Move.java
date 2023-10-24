@@ -23,7 +23,13 @@ public class Move {
                 (this.toCell.getPiece() != null && this.toCell.getPiece().getIsWhite() == this.player.getIsWhite())
         ) return false;
 
+        if (this.toCell.getPiece() != null) {
+            this.toCell.getPiece().setIsKilled(true);
+            this.toCell.setPiece(null);
+        }
 
+        this.toCell.setPiece(this.fromCell.getPiece());
+        this.fromCell.setPiece(null);
 
         return true;
     }

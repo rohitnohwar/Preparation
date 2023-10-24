@@ -8,12 +8,13 @@ import java.util.Map;
 import static chess.Constants.initalPositions;
 
 public class Board {
-    private static Cell[][] board = new Cell[8][8];
-    public static void main(String args[]) throws IOException, ClassNotFoundException {
+    private Cell[][] board;
+    public Board() throws IOException, ClassNotFoundException {
+        this.board = new Cell[8][8];
         initializeBoard();
     }
 
-    public static void initializeBoard() throws IOException, ClassNotFoundException {
+    public void initializeBoard() throws IOException, ClassNotFoundException {
         for (Map.Entry<Piece, int[][]> m: initalPositions.entrySet()) {
             for (int[] i: m.getValue()) {
                 board[i[0]][i[1]] = new Cell(i[0], i[1]);
