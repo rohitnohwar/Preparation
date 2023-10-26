@@ -23,6 +23,6 @@ public class Game {
 
         turn = players[0];
 
-        moves.add(new Move(players[0], board.get(1, 0), board.get(2, 0)););
+        moves.add(new Move(players[0], board.get(1, 0), board.get(2, 0)));
     }
 }
