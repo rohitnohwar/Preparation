@@ -2,7 +2,9 @@ package chess.piece;
 
 import chess.Cell;
 
-public abstract class Piece {
+import java.io.Serializable;
+
+public abstract class Piece implements Serializable {
     private boolean isWhite;
 
     private boolean isKilled;

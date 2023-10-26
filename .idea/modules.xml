@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementation2/BuilderPatternImplementation2.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementation2/BuilderPatternImplementation2.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/CachedThreadPoolExecutor/CachedThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/concurrency/CachedThreadPoolExecutor/CachedThreadPoolExecutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/CallableAndFutureExample/CallableAndFutureExample.iml" filepath="$PROJECT_DIR$/concurrency/CallableAndFutureExample/CallableAndFutureExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/LLD/CarParkingLot/CarParkingLot.iml" filepath="$PROJECT_DIR$/lld/LLD/CarParkingLot/CarParkingLot.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/LLD/Chess/Chess.iml" filepath="$PROJECT_DIR$/lld/LLD/Chess/Chess.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ClassAdapterPattern/ClassAdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ClassAdapterPattern/ClassAdapterPattern.iml" />

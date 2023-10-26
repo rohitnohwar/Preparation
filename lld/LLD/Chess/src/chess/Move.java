@@ -12,6 +12,7 @@ public class Move {
         this.toCell = toCell;
         this.fromCell = fromCell;
         this.player = player;
+//        movePiece();
     }
 
     public boolean movePiece() {

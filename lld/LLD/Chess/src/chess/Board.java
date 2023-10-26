@@ -47,4 +47,8 @@ public class Board {
         ObjectInputStream ois = new ObjectInputStream(bais);
         return (Piece) ois.readObject();
     }
+
+    public Cell get(int x, int y) {
+        return board[x][y];
+    }
 }
