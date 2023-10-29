@@ -51,7 +51,9 @@ public class Scheduler {
             map.put(elevators.get("1"), new HashMap<>());
             Map<Request, Request> currRequestSet = map.get(elevators.get("1"));
             currRequestSet.put(request, request);
-//            best.add(request);
+            if (request.destinationFloor.number - request.sourceFloor.number > 0) {
+
+            }
         }
     }
 

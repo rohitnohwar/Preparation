@@ -17,6 +17,7 @@ public class Elevator {
 }
 
 enum State {
-    moving,
+    movingUp,
+    movingDown,
     notMoving
 }
