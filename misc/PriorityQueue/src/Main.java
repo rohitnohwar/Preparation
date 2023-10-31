@@ -13,7 +13,6 @@ class PriorityQueue {
     }
 
     private void heapify(int i) {
-        System.out.println(i);
         int smallest = i;
         int leftChild = (i * 2 ) + 1;
         int rightChild = (i * 2 ) + 2;
@@ -37,12 +36,20 @@ class PriorityQueue {
     public void add(int element) {
         list.add(element);
         size++;
-        
-        int index = ((size - 1) / 2);
 
-        while (index >= 0) {
-            heapify(index);
-            index = (index / 2) - 1;
+        int index = size - 1;
+
+        while (index != 0) {
+            if (list.get((index - 1) / 2) > list.get(index)) {
+                int temp = list.get(index);
+                list.set(index, list.get((index - 1) / 2));
+                list.set((index - 1) / 2, temp);
+
+                index = (index - 1) / 2;
+            }
+            else {
+                break;
+            }
         }
     }
 
@@ -82,8 +89,8 @@ public class Main {
         pq.add(3);
         pq.add(1);
         pq.add(2);
+        System.out.println(pq.getList());
         pq.remove();
-
         System.out.println(pq.getList());
     }
 }
