@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/AbstractFactoryPattern/AbstractFactoryPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/AbstractFactoryPattern/AbstractFactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/AdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/AdapterPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/AtomicVariable/AtomicVariable.iml" filepath="$PROJECT_DIR$/concurrency/AtomicVariable/AtomicVariable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misc/BellmanFordAlgorithm/BellmanFordAlgorithm.iml" filepath="$PROJECT_DIR$/misc/BellmanFordAlgorithm/BellmanFordAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/BlockingQueue/BlockingQueue.iml" filepath="$PROJECT_DIR$/concurrency/BlockingQueue/BlockingQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/BridgePattern/BridgePattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/BridgePattern/BridgePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPattern.iml" />
@@ -41,6 +42,8 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveTaskWhichReturnsValue/ForkJoinSimpleRecursiveTaskWhichReturnsValue.iml" filepath="$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveTaskWhichReturnsValue/ForkJoinSimpleRecursiveTaskWhichReturnsValue.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/InitializationHolderSingleton/InitializationHolderSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/InitializationHolderSingleton/InitializationHolderSingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/InterruptCurrentThread/InterruptCurrentThread.iml" filepath="$PROJECT_DIR$/concurrency/InterruptCurrentThread/InterruptCurrentThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misc/KosarajuAlgorithm/KosarajuAlgorithm.iml" filepath="$PROJECT_DIR$/misc/KosarajuAlgorithm/KosarajuAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misc/KruskalAlgorithm/KruskalAlgorithm.iml" filepath="$PROJECT_DIR$/misc/KruskalAlgorithm/KruskalAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/LLD/LLD.iml" filepath="$PROJECT_DIR$/lld/LLD/LLD.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/Latch/Latch.iml" filepath="$PROJECT_DIR$/concurrency/Latch/Latch.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/LazySingleton/LazySingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/LazySingleton/LazySingleton.iml" />
