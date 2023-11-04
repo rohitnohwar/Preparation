@@ -37,6 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryMethodPattern/FactoryMethodPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryMethodPattern/FactoryMethodPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/FactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/FixedThreadPoolExecutor/FixedThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/concurrency/FixedThreadPoolExecutor/FixedThreadPoolExecutor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misc/FloydWarshallAlgorithm/FloydWarshallAlgorithm.iml" filepath="$PROJECT_DIR$/misc/FloydWarshallAlgorithm/FloydWarshallAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/FlyweightPattern/FlyweightPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/FlyweightPattern/FlyweightPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveAction/ForkJoinSimpleRecursiveAction.iml" filepath="$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveAction/ForkJoinSimpleRecursiveAction.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveTaskWhichReturnsValue/ForkJoinSimpleRecursiveTaskWhichReturnsValue.iml" filepath="$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveTaskWhichReturnsValue/ForkJoinSimpleRecursiveTaskWhichReturnsValue.iml" />
