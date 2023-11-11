@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/AdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/AdapterPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/ArticulationPointInGraph/ArticulationPointInGraph.iml" filepath="$PROJECT_DIR$/misc/ArticulationPointInGraph/ArticulationPointInGraph.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/AtomicVariable/AtomicVariable.iml" filepath="$PROJECT_DIR$/concurrency/AtomicVariable/AtomicVariable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/BehavioralPatterns.iml" filepath="$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/BehavioralPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/BellmanFordAlgorithm/BellmanFordAlgorithm.iml" filepath="$PROJECT_DIR$/misc/BellmanFordAlgorithm/BellmanFordAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/BlockingQueue/BlockingQueue.iml" filepath="$PROJECT_DIR$/concurrency/BlockingQueue/BlockingQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/BridgePattern/BridgePattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/BridgePattern/BridgePattern.iml" />
@@ -57,6 +58,7 @@
       <module fileurl="file://$PROJECT_DIR$/misc/Minimum Window Substring/Minimum Window Substring.iml" filepath="$PROJECT_DIR$/misc/Minimum Window Substring/Minimum Window Substring.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ObjectAdapterPattern/ObjectAdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ObjectAdapterPattern/ObjectAdapterPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/ObjectPoolPattern/ObjectPoolPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/ObjectPoolPattern/ObjectPoolPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/ObserverPattern/ObserverPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/ObserverPattern/ObserverPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/lld/Patterns/Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Preparation.iml" filepath="$PROJECT_DIR$/.idea/Preparation.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/PrimsAlgorithm/PrimsAlgorithm.iml" filepath="$PROJECT_DIR$/misc/PrimsAlgorithm/PrimsAlgorithm.iml" />
