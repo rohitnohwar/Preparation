@@ -54,6 +54,10 @@ public class ParkingLot {
     public int removeParkedVehicle(Ticket ticket) {
         List<ParkingSpot> spots = ticket.getParkingSpots();
 
+        VehicleType spotsType = spots.get(0).getVehicleType();
+
+        freeSpots.put(spotsType, freeSpots.getOrDefault(spotsType, 0) + spots.size());
+
         int totalCharge = ticket.getCost();
 
         for (ParkingSpot parkingSpot: spots) {

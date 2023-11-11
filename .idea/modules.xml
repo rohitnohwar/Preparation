@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/AbstractFactoryPattern/AbstractFactoryPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/AbstractFactoryPattern/AbstractFactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/AdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/AdapterPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/LLD/AmazonShopping/AmazonShopping.iml" filepath="$PROJECT_DIR$/lld/LLD/AmazonShopping/AmazonShopping.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/ArticulationPointInGraph/ArticulationPointInGraph.iml" filepath="$PROJECT_DIR$/misc/ArticulationPointInGraph/ArticulationPointInGraph.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/AtomicVariable/AtomicVariable.iml" filepath="$PROJECT_DIR$/concurrency/AtomicVariable/AtomicVariable.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/BehavioralPatterns.iml" filepath="$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/BehavioralPatterns.iml" />
