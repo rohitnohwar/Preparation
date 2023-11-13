@@ -16,7 +16,7 @@ class PriorityQueue {
         int smallest = i;
         int leftChild = (i * 2 ) + 1;
         int rightChild = (i * 2 ) + 2;
-        
+
         if (leftChild < size && list.get(leftChild) < list.get(smallest)) {
             smallest = leftChild;
         }

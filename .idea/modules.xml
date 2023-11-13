@@ -47,6 +47,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/FlyweightPattern/FlyweightPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/FlyweightPattern/FlyweightPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveAction/ForkJoinSimpleRecursiveAction.iml" filepath="$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveAction/ForkJoinSimpleRecursiveAction.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveTaskWhichReturnsValue/ForkJoinSimpleRecursiveTaskWhichReturnsValue.iml" filepath="$PROJECT_DIR$/concurrency/ForkJoinSimpleRecursiveTaskWhichReturnsValue/ForkJoinSimpleRecursiveTaskWhichReturnsValue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misc/HeapSort/HeapSort.iml" filepath="$PROJECT_DIR$/misc/HeapSort/HeapSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/InitializationHolderSingleton/InitializationHolderSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/InitializationHolderSingleton/InitializationHolderSingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/InsertionSort/InsertionSort.iml" filepath="$PROJECT_DIR$/misc/InsertionSort/InsertionSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/InterruptCurrentThread/InterruptCurrentThread.iml" filepath="$PROJECT_DIR$/concurrency/InterruptCurrentThread/InterruptCurrentThread.iml" />
@@ -59,6 +60,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/LiveLock/LiveLock.iml" filepath="$PROJECT_DIR$/concurrency/LiveLock/LiveLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/Lock-ReentrantLock/Lock-ReentrantLock.iml" filepath="$PROJECT_DIR$/concurrency/Lock-ReentrantLock/Lock-ReentrantLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/LockingWithCustomObjects/LockingWithCustomObjects.iml" filepath="$PROJECT_DIR$/concurrency/LockingWithCustomObjects/LockingWithCustomObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misc/MergeSort/MergeSort.iml" filepath="$PROJECT_DIR$/misc/MergeSort/MergeSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/Minimum Window Substring/Minimum Window Substring.iml" filepath="$PROJECT_DIR$/misc/Minimum Window Substring/Minimum Window Substring.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ObjectAdapterPattern/ObjectAdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ObjectAdapterPattern/ObjectAdapterPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/ObjectPoolPattern/ObjectPoolPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/ObjectPoolPattern/ObjectPoolPattern.iml" />
@@ -70,6 +72,7 @@
       <module fileurl="file://$PROJECT_DIR$/misc/PriorityQueue/PriorityQueue.iml" filepath="$PROJECT_DIR$/misc/PriorityQueue/PriorityQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/PrototypePattern/PrototypePattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/PrototypePattern/PrototypePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ProxyPattern/ProxyPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ProxyPattern/ProxyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misc/QuickSort/QuickSort.iml" filepath="$PROJECT_DIR$/misc/QuickSort/QuickSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/ReflectionPreventionSingleton/ReflectionPreventionSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/ReflectionPreventionSingleton/ReflectionPreventionSingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/RunningThreadsUsingRunnableInterface/RunningThreadsUsingRunnableInterface.iml" filepath="$PROJECT_DIR$/concurrency/RunningThreadsUsingRunnableInterface/RunningThreadsUsingRunnableInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/RunningThreadsUsingThreadAbstractClass/RunningThreadsUsingThreadAbstractClass.iml" filepath="$PROJECT_DIR$/concurrency/RunningThreadsUsingThreadAbstractClass/RunningThreadsUsingThreadAbstractClass.iml" />
