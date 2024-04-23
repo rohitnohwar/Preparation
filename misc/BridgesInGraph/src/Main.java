@@ -43,7 +43,7 @@ class Tarjan {
 
 public class Main {
     public static void main(String[] args) {
-        Map<Integer, List<Integer>> adj = new HashMap<>(){{
+        Map<Integer, List<Integer>> adj = new HashMap(){{
             put(0, new ArrayList<>(
                     Arrays.asList(1, 3)
             ));
