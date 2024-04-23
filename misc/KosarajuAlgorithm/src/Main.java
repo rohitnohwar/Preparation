@@ -73,19 +73,19 @@ public class Main {
     public static void main(String[] args) {
         List<List<Integer>> adj = new ArrayList<>();
 
-        adj.add(0, new ArrayList<>(List.of(1)));
+        adj.add(0, new ArrayList<>(Arrays.asList(1)));
 
-        adj.add(1, new ArrayList<>(List.of(2)));
+        adj.add(1, new ArrayList<>(Arrays.asList(2)));
 
-        adj.add(2, new ArrayList<>(List.of(0, 3)));
+        adj.add(2, new ArrayList<>(Arrays.asList(0, 3)));
 
-        adj.add(3, new ArrayList<>(List.of(4)));
+        adj.add(3, new ArrayList<>(Arrays.asList(4)));
 
-        adj.add(4, new ArrayList<>(List.of(5, 7)));
+        adj.add(4, new ArrayList<>(Arrays.asList(5, 7)));
 
-        adj.add(5, new ArrayList<>(List.of(6)));
+        adj.add(5, new ArrayList<>(Arrays.asList(6)));
 
-        adj.add(6, new ArrayList<>(List.of(4, 7)));
+        adj.add(6, new ArrayList<>(Arrays.asList(4, 7)));
 
         adj.add(7, new ArrayList<>());
 
