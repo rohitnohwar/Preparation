@@ -19,7 +19,9 @@ class Kruskal {
 
         if (rank[u] > rank[v]) {
             parent[v] = u;
-            rank[u]++;
+        }
+        else if (rank[u] < rank[v]) {
+            parent[u] = v;
         }
         else {
             parent[u] = v;
