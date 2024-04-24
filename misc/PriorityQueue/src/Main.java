@@ -67,7 +67,7 @@ class PriorityQueue {
     }
 
     public void heapifyWholeArray() {
-        for (int i = (size - 1) / 2; i >= 0; i--) {
+        for (int i = (size - 1 - 1) / 2; i >= 0; i--) {
             heapify(i);
         }
     }
