@@ -12,10 +12,12 @@ class PriorityQueue {
         size = 0;
     }
 
-    private void heapify(int i) {
+    private void heapify(int i, Integer size) {
         int smallest = i;
         int leftChild = (i * 2 ) + 1;
         int rightChild = (i * 2 ) + 2;
+
+        if (size == null) size = this.size;
 
         if (leftChild < size && list.get(leftChild) < list.get(smallest)) {
             smallest = leftChild;
@@ -29,7 +31,7 @@ class PriorityQueue {
             list.set(i, list.get(smallest));
             list.set(smallest, temp);
 
-            heapify(smallest);
+            heapify(smallest, size);
         }
     }
 
@@ -61,14 +63,24 @@ class PriorityQueue {
         list.remove(size - 1);
         size--;
 
-        heapify(0);
+        heapify(0, null);
 
         return temp;
     }
 
     public void heapifyWholeArray() {
         for (int i = (size - 1) / 2; i >= 0; i--) {
-            heapify(i);
+            heapify(i, null);
+        }
+    }
+
+    public void sortDesc() {
+        for (int i = size - 1; i > 0; i--) {
+            int temp = list.get(0);
+            list.set(0, list.get(i));
+            list.set(i, temp);
+
+            heapify(0, i);
         }
     }
 
@@ -95,8 +107,14 @@ public class Main {
         pq.add(3);
         pq.add(1);
         pq.add(2);
+        pq.add(100);
+        pq.add(76);
         System.out.println(pq.getList());
-        pq.remove();
+        pq.sortDesc();
         System.out.println(pq.getList());
+//        pq.remove();
+//        System.out.println(pq.getList());
+//        pq.sortDesc();
+//        System.out.println(pq.getList());
     }
 }
