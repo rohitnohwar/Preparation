@@ -4,9 +4,9 @@ import java.util.Arrays;
 // then press Enter. You can now see whitespace characters in your code.
 class BubbleSort {
     public void sort(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = arr.length - 2; i >= 0; i--) {
 
-            for (int j = 0; j < arr.length - i - 1; j++) {
+            for (int j = 0; j <= i; j++) {
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
