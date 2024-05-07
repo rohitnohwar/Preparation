@@ -1,0 +1,14 @@
+Creational Patterns:-
+    1. Factory
+    2. Builder
+    3. Singleton
+    4. Abstract Factory
+
+Behavioural Patterns:-
+    1. Observer / PubSub
+    2. Iterator
+    3. Strategy
+
+Structural Patterns
+    1. Facade
+    2. Adapter
