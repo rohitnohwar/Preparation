@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AllowedSpots {
-    private static final Map<VehicleType, Map<VehicleType, Boolean>> allowedSpots = new HashMap<>()
+    private static final Map<VehicleType, Map<VehicleType, Boolean>> allowedSpots = new HashMap()
     {{
         put(VehicleType.MOTORCYCLE, new HashMap() {{
             put(VehicleType.MOTORCYCLE, true);

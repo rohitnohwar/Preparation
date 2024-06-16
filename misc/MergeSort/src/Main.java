@@ -14,13 +14,12 @@ class MergeSort {
             if (arr[left] < arr[right]) {
                 temp[tempInd] = arr[left];
                 left++;
-                tempInd++;
             }
             else {
                 temp[tempInd] = arr[right];
                 right++;
-                tempInd++;
             }
+            tempInd++;
         }
 
         while (left <= mid) {

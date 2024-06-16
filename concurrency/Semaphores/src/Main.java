@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 enum DownloadService {
     INSTANCE;
 
-    Semaphore semaphore = new Semaphore(3);
+    private static final Semaphore semaphore = new Semaphore(3);
 
     public void download() throws InterruptedException {
         semaphore.acquire();
