@@ -12,7 +12,11 @@ public class Main {
 //        Class1<Integer> c = new Class1<>();
 //        Class1 d = new Class1();
 
-        String ss = null;
-        Integer i = Integer.parseInt(ss);
+//        String ss = null;
+//        Integer i = Integer.parseInt(ss);
+        Class1 a = new Class1();
+        Class1 b = a;
+
+        a.b();
     }
 }

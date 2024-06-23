@@ -1,5 +1,8 @@
 package a;
 
 public interface Abstract {
-    abstract void a();
+    void a();
+    default void  b() {
+System.out.println("aak");
+    }
 }
