@@ -14,9 +14,15 @@ public class Main {
 
 //        String ss = null;
 //        Integer i = Integer.parseInt(ss);
-        Class1 a = new Class1();
-        Class1 b = a;
+//        Class1 a = new Class1();
+//        Class1 b = a;
+//
+//        a.b();
 
-        a.b();
+
+        Class<Integer> a = new Class<>(2);
+        Class<Integer> b = new Class<>(2);
+
+        System.out.println(a.equals(b));
     }
 }
