@@ -20,9 +20,11 @@ public class Main {
 //        a.b();
 
 
-        Class<Integer> a = new Class<>(2);
-        Class<Integer> b = new Class<>(2);
+//        Class<Integer> a = new Class<>(2);
+//        Class<Integer> b = new Class<>(2);
+//
+//        System.out.println(a.equals(b));
 
-        System.out.println(a.equals(b));
+        Class1<Character> c = new Class1<>('y');
     }
 }

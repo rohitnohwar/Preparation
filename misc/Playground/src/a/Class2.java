@@ -1,12 +1,16 @@
 package a;
 
-public class Class2<T extends  Helper> extends Class1{
+public class Class2<T> extends Class1<T>{
     T i;
 
     public Class2(T i) {
-        super(6);
+        super();
+//        super(i);
+        if (i instanceof Integer) {
+//            i += 1;
+        }
 
-        this.i = i;
+//        super.i = 3;
 
 //        super.a() = 3;
     }
