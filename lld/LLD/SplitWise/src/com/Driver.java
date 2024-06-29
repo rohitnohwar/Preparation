@@ -82,13 +82,15 @@ public class Driver {
 
 
 
-    public Map<String, Map<String, Integer>> getPersonalOwes(String groupId) {
+    public Map<String, Map<String, Integer>> getPersonalOwes(String groupId, String userId) {
         List<Transaction> transactions = groups.get(groupId).getTransactions();
 
         Map<String, Map<String, Integer>> owesHowMuch = new HashMap<>();
 
         for (Transaction transaction: transactions) {
             for (Split split: transaction.getOwers()) {
+                if (userId != null && !transaction.getPayer().getUserId().equals(userId) && !split.getUser().getUserId().equals(userId)) continue;
+
                 if (!owesHowMuch.containsKey(split.getUser().getUserId())) owesHowMuch.put(split.getUser().getUserId(), new HashMap<>());
                 if (!owesHowMuch.get(split.getUser().getUserId()).containsKey(transaction.getPayer().getUserId())) owesHowMuch.get(split.getUser().getUserId()).put(transaction.getPayer().getUserId(), 0);
                 if (!owesHowMuch.containsKey(transaction.getPayer().getUserId())) owesHowMuch.put(transaction.getPayer().getUserId(), new HashMap<>());
@@ -101,6 +103,16 @@ public class Driver {
         }
 
         return owesHowMuch;
+    }
+
+
+    public List<Transaction> getTransactionsForAGroup(String groupId) {
+        return groups.get(groupId).getTransactions();
+    }
+
+    public Map<String, User> getGroupUsers(String groupId) {
+
+        return groups.get(groupId).getUsers();
     }
 }
 

@@ -1,22 +1,24 @@
 package com;
 
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class Group {
-    private List<User> users;
+    private Map<String, User> users;
 
     private List<Transaction> transactions;
 
-    public Group(List<User> users, List<Transaction> transactions) {
+    public Group(Map<String, User> users, List<Transaction> transactions) {
         this.users = users;
         this.transactions = transactions;
     }
 
-    public List<User> getUsers() {
+    public Map<String, User> getUsers() {
         return users;
     }
 
-    public void setUsers(List<User> users) {
+    public void setUsers(Map<String, User> users) {
         this.users = users;
     }
 

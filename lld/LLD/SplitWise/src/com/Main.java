@@ -1,22 +1,32 @@
 package com;
 
+import com.transaction.manager.TransactionService;
+
 import java.util.*;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        User u1 = new User("1");
-        User u2 = new User("2");
-        User u3 = new User("3");
-        User u4 = new User("4");
+        User u1 = new User("u1");
+        User u2 = new User("u2");
+        User u3 = new User("u3");
+        User u4 = new User("u4");
 
         Split s1 = new Split(u2, 250);
         Split s2 = new Split(u3, 250);
         Split s3 = new Split(u4, 250);
         Transaction t1 = new Transaction(u1, new ArrayList<>(Arrays.asList(s1, s2, s3)), 1000);
 
-        Group group = new Group(new ArrayList<>(Arrays.asList(u1, u2, u3, u4)), new ArrayList<>(
+        Group group = new Group(
+                new HashMap<String, User>()
+        {{
+                    put("u1", u1);
+                    put("u2", u2);
+                    put("u3", u3);
+                    put("u4", u4);
+        }}
+                , new ArrayList<>(
                 Arrays.asList(t1)
         ));
 
@@ -36,37 +46,67 @@ public class Main {
         Driver driver = new Driver();
         driver.groups.put("1", group);
 
-//        List<Transaction> t = driver.groups.get("1").getTransactions();
-//        for (int i = 0; i < t.size(); i++) {
-//            System.out.println(t.get(i).getPayer().getUserId());
-//
-//            for (int j = 0; j < t.get(i).getOwers().size(); j++) {
-//                System.out.println(t.get(i).getOwers().get(j).getUser().getUserId());
-//            }
-//        }
+        Scanner sc = new Scanner(System.in);
 
-        Map<String, Map<String, Integer>> owesHowMuch = driver.getPersonalOwes("1");
 
-//        for (Map.Entry<String, Map<String, Integer>> owes: owesHowMuch.entrySet()) {
-//            System.out.println(owes.getKey());
-//
-//            for (Map.Entry<String, Integer> owe: owes.getValue().entrySet()) {
-//                System.out.println(owe.getValue());
-//
-//
-//            }
-//        }
+        while (true) {
+            String com = sc.nextLine();
+            String[] command = com.split(" ");
+            String commandType = command[0];
 
-        owesHowMuch = driver.getGroupOwes("1");
+            switch (commandType) {
+                case "SHOW":
+                    Map<String, Map<String, Integer>> owesHowMuch;
+                    if (command.length < 2) {
+                        owesHowMuch = driver.getPersonalOwes("1", null);
+                    }
+                    else {
+                        owesHowMuch = driver.getPersonalOwes("1", command[1]);
+                        System.out.println(command[1]);
+                    }
 
-        for (Map.Entry<String, Map<String, Integer>> owes: owesHowMuch.entrySet()) {
-            System.out.println(owes.getKey());
+                    for (Map.Entry<String, Map<String, Integer>> owes : owesHowMuch.entrySet()) {
+                        System.out.println(owes.getKey());
 
-            for (Map.Entry<String, Integer> owe: owes.getValue().entrySet()) {
-                System.out.println(owe.getKey() + ", " + owe.getValue());
+                        for (Map.Entry<String, Integer> owe : owes.getValue().entrySet()) {
+                            System.out.println("---------------" + owe.getKey() + "  " + owe.getValue());
+                        }
+                    }
+                    break;
+                case "TRANSACTION":
+                    List<Transaction> transactions = driver.getTransactionsForAGroup("1");
+                    Map<String, User> users = driver.getGroupUsers("1");
+                    TransactionService.addTransaction(transactions, command, users);
+                    break;
+                default:
+                    break;
             }
 
-            System.out.println("---------------------------");
+
+//            Map<String, Map<String, Integer>> owesHowMuch = driver.getPersonalOwes("1", null);
+//
+//            for (Map.Entry<String, Map<String, Integer>> owes : owesHowMuch.entrySet()) {
+//                System.out.println(owes.getKey());
+//
+//                for (Map.Entry<String, Integer> owe : owes.getValue().entrySet()) {
+//                    System.out.println(owe.getValue());
+//
+//
+//                }
+//            }
+//
+//            owesHowMuch = driver.getGroupOwes("1");
+//
+//            for (Map.Entry<String, Map<String, Integer>> owes : owesHowMuch.entrySet()) {
+//                System.out.println(owes.getKey());
+//
+//                for (Map.Entry<String, Integer> owe : owes.getValue().entrySet()) {
+//                    System.out.println(owe.getKey() + ", " + owe.getValue());
+//                }
+//
+//                System.out.println("---------------------------");
+//            }
+
         }
 
     }

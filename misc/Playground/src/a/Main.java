@@ -25,6 +25,13 @@ public class Main {
 //
 //        System.out.println(a.equals(b));
 
-        Class1<Character> c = new Class1<>('y');
+//        Class1<Character> c = new Class1<>('y');
+
+        StringBuilder a = new StringBuilder("abcdef");
+        StringBuilder b = a;
+
+        b.deleteCharAt(2);
+
+        System.out.println(a);
     }
 }

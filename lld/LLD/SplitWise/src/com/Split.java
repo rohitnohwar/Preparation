@@ -9,6 +9,9 @@ public class Split {
         this.splitAmount = splitAmount;
     }
 
+    public Split() {
+    }
+
     public User getUser() {
         return user;
     }

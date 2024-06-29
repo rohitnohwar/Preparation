@@ -1,16 +1,24 @@
 package com;
 
+import com.transaction.manager.TransactionType;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class Transaction {
     private User payer;
     int amount;
+    TransactionType transactionType;
     private List<Split> owers;
 
     public Transaction(User payer, List<Split> owers, int amount) {
         this.payer = payer;
         this.owers = owers;
         this.amount = amount;
+    }
+
+    public Transaction() {
+        owers = new ArrayList<>();
     }
 
     public int getAmount() {
