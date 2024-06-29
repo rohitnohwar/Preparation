@@ -1,20 +1,15 @@
 package com;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-public class Driver {
-    Map<String, Group> groups;
+public class BalanceService {
 
-    public Driver() {
-        groups = new HashMap<>();
-    }
 
-    public List<Transaction> getGroupTransactions(String groupId) {
-        return groups.get(groupId).getTransactions();
-    }
-
-    private Map<String, Integer> getGroupBalance(String groupId) {
-        List<Transaction> transactions = groups.get(groupId).getTransactions();
+    private static Map<String, Integer> getGroupBalance(String groupId, List<Transaction> transactions) {
+//        List<Transaction> transactions = groups.get(groupId).getTransactions();
         Map<String, Integer> balance = new HashMap<>();
 
         for (Transaction transaction: transactions) {
@@ -35,8 +30,8 @@ public class Driver {
         return balance;
     }
 
-    public Map<String, Map<String, Integer>> getGroupOwes(String groupId) {
-        Map<String, Integer> balanceMap = this.getGroupBalance(groupId);
+    public static Map<String, Map<String, Integer>> getGroupOwes(String groupId, List<Transaction> transactions) {
+        Map<String, Integer> balanceMap = getGroupBalance(groupId, transactions);
 
         List<Balance> balanceList = new ArrayList<>();
         for (Map.Entry<String, Integer> balanceMapElement: balanceMap.entrySet()) {
@@ -82,8 +77,8 @@ public class Driver {
 
 
 
-    public Map<String, Map<String, Integer>> getPersonalOwes(String groupId, String userId) {
-        List<Transaction> transactions = groups.get(groupId).getTransactions();
+    public static Map<String, Map<String, Integer>> getPersonalOwes(String groupId, String userId, List<Transaction> transactions) {
+//        List<Transaction> transactions = groups.get(groupId).getTransactions();
 
         Map<String, Map<String, Integer>> owesHowMuch = new HashMap<>();
 
@@ -104,15 +99,4 @@ public class Driver {
 
         return owesHowMuch;
     }
-
-
-    public List<Transaction> getTransactionsForAGroup(String groupId) {
-        return groups.get(groupId).getTransactions();
-    }
-
-    public Map<String, User> getGroupUsers(String groupId) {
-
-        return groups.get(groupId).getUsers();
-    }
 }
-

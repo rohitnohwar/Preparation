@@ -43,8 +43,8 @@ public class Main {
 
         group.getTransactions().add(t3);
 
-        Driver driver = new Driver();
-        driver.groups.put("1", group);
+        Database database = new Database();
+        database.groups.put("1", group);
 
         Scanner sc = new Scanner(System.in);
 
@@ -58,11 +58,12 @@ public class Main {
                 case "SHOW":
                     Map<String, Map<String, Integer>> owesHowMuch;
                     if (command.length < 2) {
-                        owesHowMuch = driver.getPersonalOwes("1", null);
+                        List<Transaction> transactions = database.getTransactionsForAGroup("1");
+                        owesHowMuch = BalanceService.getPersonalOwes("1", null, transactions);
                     }
                     else {
-                        owesHowMuch = driver.getPersonalOwes("1", command[1]);
-                        System.out.println(command[1]);
+                        List<Transaction> transactions = database.getTransactionsForAGroup("1");
+                        owesHowMuch = BalanceService.getPersonalOwes("1", command[1], transactions);
                     }
 
                     for (Map.Entry<String, Map<String, Integer>> owes : owesHowMuch.entrySet()) {
@@ -74,8 +75,8 @@ public class Main {
                     }
                     break;
                 case "TRANSACTION":
-                    List<Transaction> transactions = driver.getTransactionsForAGroup("1");
-                    Map<String, User> users = driver.getGroupUsers("1");
+                    List<Transaction> transactions = database.getTransactionsForAGroup("1");
+                    Map<String, User> users = database.getGroupUsers("1");
                     TransactionService.addTransaction(transactions, command, users);
                     break;
                 default:
