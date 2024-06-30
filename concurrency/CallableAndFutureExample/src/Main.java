@@ -29,22 +29,15 @@ class Worker implements Callable<Integer>{
 
 public class Main {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        ExecutorService executors = Executors.newFixedThreadPool(10);
-
-        List<Future<Integer>> list = new ArrayList<>();
+        ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 
         Worker worker = new Worker();
 
-        for (int i = 0; i < 100000; i++) {
-            worker.setI(i);
-            Future<Integer> future = executors.submit(worker);
+        List<Future<Integer>> list = new ArrayList<>();
+        for (int i = 0; i < 1000; i++) {
+            Future<Integer> future = executorService.submit(worker);
             list.add(future);
-
-//            System.out.println(future.get());       // If we use .get(), the loop will pause here till we get the future value, thus executing sequentially
-        }
-
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i).get());
+//            System.out.println(future.get()); // Getting will make the execution serial
         }
     }
 }

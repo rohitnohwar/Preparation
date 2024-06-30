@@ -4,34 +4,18 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-//        int[] s = new int[]{1};
-//        Helper helper = new Helper();
-//        helper.s(s);
-//        System.out.println(s[0]);
-//
-//        Class1<Integer> c = new Class1<>();
-//        Class1 d = new Class1();
+        Class a = new Class1(8);
+        b(a);
+        a.k();
+//        System.out.println(a.i);
+//        a.k();
+//        List<Integer> e = new ArrayList<>();
+//        e.add("j");
+//        System.out.println(e.get(0));
+    }
 
-//        String ss = null;
-//        Integer i = Integer.parseInt(ss);
-//        Class1 a = new Class1();
-//        Class1 b = a;
-//
-//        a.b();
-
-
-//        Class<Integer> a = new Class<>(2);
-//        Class<Integer> b = new Class<>(2);
-//
-//        System.out.println(a.equals(b));
-
-//        Class1<Character> c = new Class1<>('y');
-
-        StringBuilder a = new StringBuilder("abcdef");
-        StringBuilder b = a;
-
-        b.deleteCharAt(2);
-
-        System.out.println(a);
+    private static void b(Class a) {
+        a.i = 4;
+        System.out.println(a.i);
     }
 }

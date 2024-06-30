@@ -71,6 +71,7 @@
       <module fileurl="file://$PROJECT_DIR$/misc/PrimsAlgorithm/PrimsAlgorithm.iml" filepath="$PROJECT_DIR$/misc/PrimsAlgorithm/PrimsAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/PriorityBlockingQueue/PriorityBlockingQueue.iml" filepath="$PROJECT_DIR$/concurrency/PriorityBlockingQueue/PriorityBlockingQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/PriorityQueue/PriorityQueue.iml" filepath="$PROJECT_DIR$/misc/PriorityQueue/PriorityQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/ProducerConsumerWithoutLock/ProducerConsumerWithoutLock.iml" filepath="$PROJECT_DIR$/concurrency/ProducerConsumerWithoutLock/ProducerConsumerWithoutLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/PrototypePattern/PrototypePattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/PrototypePattern/PrototypePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ProxyPattern/ProxyPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ProxyPattern/ProxyPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/QuickSort/QuickSort.iml" filepath="$PROJECT_DIR$/misc/QuickSort/QuickSort.iml" />
@@ -84,6 +85,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/SimpleFactoryPattern/SimpleFactoryPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/SimpleFactoryPattern/SimpleFactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/SingleThreadPoolExecutor/SingleThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/concurrency/SingleThreadPoolExecutor/SingleThreadPoolExecutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/SingletonPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/SingletonPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/LLD/SnakesAndLadder/SnakesAndLadder.iml" filepath="$PROJECT_DIR$/lld/LLD/SnakesAndLadder/SnakesAndLadder.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/LLD/SnakesAndLadders/SnakesAndLadders.iml" filepath="$PROJECT_DIR$/lld/LLD/SnakesAndLadders/SnakesAndLadders.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/LLD/SplitWise/SplitWise.iml" filepath="$PROJECT_DIR$/lld/LLD/SplitWise/SplitWise.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/StoppingAThread/StoppingAThread.iml" filepath="$PROJECT_DIR$/concurrency/StoppingAThread/StoppingAThread.iml" />

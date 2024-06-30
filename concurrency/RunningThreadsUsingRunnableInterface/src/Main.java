@@ -1,4 +1,7 @@
 import java.lang.Runnable;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 class Runner1 implements Runnable{
     @Override
@@ -27,6 +30,15 @@ public class Main {
         Thread t2 = new Thread(runner2);
 
         Thread t3 = new Thread(){
+            @Override
+            public void run() {
+                for (int i = 0; i < 50; i++) {
+                    System.out.println("Runner3: "+i);
+                }
+            }
+        };
+
+        Runnable t4 = new Runnable(){
             @Override
             public void run() {
                 for (int i = 0; i < 50; i++) {
