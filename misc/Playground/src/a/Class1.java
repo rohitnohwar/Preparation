@@ -1,14 +1,12 @@
 package a;
 
-public class Class1 extends Class {
-//    Integer i;
+public class Class1<T, U> extends Class {
+    T i;
 
-    public Class1(Integer i) {
-//        super("jhjhg");
-this.i = i;
-//super.i = 2;
-System.out.println(this.i);
-System.out.println(super.i);
+    public Class1(T i) {
+        this.i = i;
+        System.out.println(i);
+        System.out.println(super.i);
     }
 
     public void k() {

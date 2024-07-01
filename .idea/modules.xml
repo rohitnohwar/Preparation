@@ -54,7 +54,6 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/IteratorPattern/IteratorPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/IteratorPattern/IteratorPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/KosarajuAlgorithm/KosarajuAlgorithm.iml" filepath="$PROJECT_DIR$/misc/KosarajuAlgorithm/KosarajuAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/KruskalAlgorithm/KruskalAlgorithm.iml" filepath="$PROJECT_DIR$/misc/KruskalAlgorithm/KruskalAlgorithm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lld/LLD/LLD.iml" filepath="$PROJECT_DIR$/lld/LLD/LLD.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/Latch/Latch.iml" filepath="$PROJECT_DIR$/concurrency/Latch/Latch.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/LazySingleton/LazySingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/LazySingleton/LazySingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/LiveLock/LiveLock.iml" filepath="$PROJECT_DIR$/concurrency/LiveLock/LiveLock.iml" />
@@ -71,6 +70,7 @@
       <module fileurl="file://$PROJECT_DIR$/misc/PrimsAlgorithm/PrimsAlgorithm.iml" filepath="$PROJECT_DIR$/misc/PrimsAlgorithm/PrimsAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/PriorityBlockingQueue/PriorityBlockingQueue.iml" filepath="$PROJECT_DIR$/concurrency/PriorityBlockingQueue/PriorityBlockingQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/PriorityQueue/PriorityQueue.iml" filepath="$PROJECT_DIR$/misc/PriorityQueue/PriorityQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/ProducerConsumerProblemWithoutAndWithLock/ProducerConsumerProblemWithoutAndWithLock.iml" filepath="$PROJECT_DIR$/concurrency/ProducerConsumerProblemWithoutAndWithLock/ProducerConsumerProblemWithoutAndWithLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/ProducerConsumerWithoutLock/ProducerConsumerWithoutLock.iml" filepath="$PROJECT_DIR$/concurrency/ProducerConsumerWithoutLock/ProducerConsumerWithoutLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/PrototypePattern/PrototypePattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/PrototypePattern/PrototypePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ProxyPattern/ProxyPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ProxyPattern/ProxyPattern.iml" />
@@ -106,8 +106,8 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/WaitingForThreadsToFinishUsingJoin/WaitingForThreadsToFinishUsingJoin.iml" filepath="$PROJECT_DIR$/concurrency/WaitingForThreadsToFinishUsingJoin/WaitingForThreadsToFinishUsingJoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/concurrency.iml" filepath="$PROJECT_DIR$/concurrency/concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/graph/graph.iml" filepath="$PROJECT_DIR$/graph/graph.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lld/lld.iml" filepath="$PROJECT_DIR$/lld/lld.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/misc.iml" filepath="$PROJECT_DIR$/misc/misc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/producercon.iml" filepath="$PROJECT_DIR$/lld/producercon.iml" />
     </modules>
   </component>
 </project>

@@ -1,9 +1,9 @@
 package a;
 
-public class Class {
-    Integer i;
-    public Class(Integer i) {
-        System.out.println(i);
+public class Class<T> {
+    T i;
+    public Class(T i) {
+        this.i = i;
     }
 
     public void k() {

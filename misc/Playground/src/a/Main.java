@@ -4,18 +4,12 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Class a = new Class1(8);
-        b(a);
-        a.k();
-//        System.out.println(a.i);
-//        a.k();
-//        List<Integer> e = new ArrayList<>();
-//        e.add("j");
-//        System.out.println(e.get(0));
+        Class1<String, Integer> a = new Class1<>("h");
+
+        k(a);
     }
 
-    private static void b(Class a) {
-        a.i = 4;
-        System.out.println(a.i);
+    private static void k(Class1 c) {
+        System.out.println(c.i);
     }
 }
