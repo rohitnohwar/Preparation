@@ -7,11 +7,11 @@ import java.util.concurrent.locks.ReentrantLock;
 
 class ProducerConsumer {
 
-    static int count = 0;
-    static int in = 0;
-    static int out = 0;
-    static int queueSize = 10;
-    static Random random = new Random();
+    private static int count = 0;
+    private static int in = 0;
+    private static int out = 0;
+    private static int queueSize = 10;
+    private static Random random = new Random();
 
     static int[] queue = new int[queueSize];
 
@@ -24,7 +24,7 @@ class ProducerConsumer {
             System.out.println("Before Producer. in=" + in + ", count=" + count);
 
             queue[in] = random.nextInt(300) + 300;
-            in = (in + 1) % 10;
+            in = (in + 1) % queueSize;
             count++;
 
             System.out.println("After Producer. in=" + in + ", count=" + count);
@@ -48,7 +48,7 @@ class ProducerConsumer {
             System.out.println("Before Consumer. out=" + out + ", count=" + count);
 
             queue[out] = 0;
-            out = (out + 1) % 10;
+            out = (out + 1) % queueSize;
             count--;
 
             System.out.println("After Consumer. out=" + out + ", count=" + count);

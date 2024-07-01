@@ -35,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/DecoraterPattern/DecoraterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/DecoraterPattern/DecoraterPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/DelayQueue/DelayQueue.iml" filepath="$PROJECT_DIR$/concurrency/DelayQueue/DelayQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/DijkstraAlgorithm/DijkstraAlgorithm.iml" filepath="$PROJECT_DIR$/misc/DijkstraAlgorithm/DijkstraAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/DiningPhilosophersProblem/DiningPhilosophersProblem.iml" filepath="$PROJECT_DIR$/concurrency/DiningPhilosophersProblem/DiningPhilosophersProblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EagerSingleton/EagerSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EagerSingleton/EagerSingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/LLD/Elevator/Elevator.iml" filepath="$PROJECT_DIR$/lld/LLD/Elevator/Elevator.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EnumSingleton/EnumSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EnumSingleton/EnumSingleton.iml" />
