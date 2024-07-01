@@ -76,6 +76,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/PrototypePattern/PrototypePattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/PrototypePattern/PrototypePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ProxyPattern/ProxyPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ProxyPattern/ProxyPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/QuickSort/QuickSort.iml" filepath="$PROJECT_DIR$/misc/QuickSort/QuickSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/ReaderWriterProblem/ReaderWriterProblem.iml" filepath="$PROJECT_DIR$/concurrency/ReaderWriterProblem/ReaderWriterProblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/ReflectionPreventionSingleton/ReflectionPreventionSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/ReflectionPreventionSingleton/ReflectionPreventionSingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/RunningThreadsUsingRunnableInterface/RunningThreadsUsingRunnableInterface.iml" filepath="$PROJECT_DIR$/concurrency/RunningThreadsUsingRunnableInterface/RunningThreadsUsingRunnableInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/RunningThreadsUsingThreadAbstractClass/RunningThreadsUsingThreadAbstractClass.iml" filepath="$PROJECT_DIR$/concurrency/RunningThreadsUsingThreadAbstractClass/RunningThreadsUsingThreadAbstractClass.iml" />
