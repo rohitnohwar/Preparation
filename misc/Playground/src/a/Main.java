@@ -4,12 +4,13 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Class1<String, Integer> a = new Class1<>("h");
+        int a = 0;
+        double b = 0;
+        long c = 0;
+        float d = 1;
 
-        k(a);
+        System.out.println( ((Object) (c * d)).getClass().getName() );
+
     }
 
-    private static void k(Class1 c) {
-        System.out.println(c.i);
-    }
 }

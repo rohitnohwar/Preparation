@@ -13,8 +13,8 @@ class QuickSort {
         int pivot = arr[low];
         
         while (i < j) {
-            while (i <= high && arr[i] <= pivot) i++;
-            while (j >= low && arr[j] > pivot) j--;
+            while (i <= j && arr[i] <= pivot) i++;
+            while (j >= i && arr[j] > pivot) j--;
             
             if (i < j) swap(arr, i, j);
         }

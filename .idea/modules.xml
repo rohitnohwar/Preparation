@@ -52,6 +52,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/InitializationHolderSingleton/InitializationHolderSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/InitializationHolderSingleton/InitializationHolderSingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/InsertionSort/InsertionSort.iml" filepath="$PROJECT_DIR$/misc/InsertionSort/InsertionSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/InterruptCurrentThread/InterruptCurrentThread.iml" filepath="$PROJECT_DIR$/concurrency/InterruptCurrentThread/InterruptCurrentThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misc/InterviewSeenQuestions/InterviewSeenQuestions.iml" filepath="$PROJECT_DIR$/misc/InterviewSeenQuestions/InterviewSeenQuestions.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/IteratorPattern/IteratorPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/IteratorPattern/IteratorPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/KosarajuAlgorithm/KosarajuAlgorithm.iml" filepath="$PROJECT_DIR$/misc/KosarajuAlgorithm/KosarajuAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/KruskalAlgorithm/KruskalAlgorithm.iml" filepath="$PROJECT_DIR$/misc/KruskalAlgorithm/KruskalAlgorithm.iml" />

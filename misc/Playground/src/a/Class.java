@@ -1,15 +1,10 @@
 package a;
 
-public class Class<T> {
-    T i;
-    public Class(T i) {
-        this.i = i;
-    }
+public class Class {
 
-    public void k() {
+    int a;
 
-    }
+    void b() {
 
-    public Class() {
     }
 }

@@ -1,17 +1,17 @@
 package a;
 
-public class Class1<T, U> extends Class {
-    T i;
+public class Class1 {
+    int i;
 
-    public Class1(T i) {
+    public Class1(int i) {
         this.i = i;
-        System.out.println(i);
-        System.out.println(super.i);
+//        System.out.println(i);
+//        System.out.println(super.i);
     }
 
     public void k() {
-        System.out.println(this.i);
-        System.out.println(super.i);
+//        System.out.println(this.i);
+//        System.out.println(super.i);
     }
 
 
@@ -24,7 +24,7 @@ public class Class1<T, U> extends Class {
 
     private static final int[] j = new int[]{1, 3};
     public void a() {
-        System.out.println(i);
+//        System.out.println(i);
     }
 
 }
