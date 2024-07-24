@@ -128,10 +128,6 @@ public class Main {
 
         Map<Character, Integer> totalReports = calculateReportees(relation);
 
-//        for (Map.Entry<Character, Integer> m: totalReports.entrySet()) {
-//            totalReports.put(m.getKey(), totalReports.get(m.getKey()) - 1);
-//        }
-
         for (Map.Entry<Character, Integer> m: totalReports.entrySet()) {
             System.out.println(m.getKey() + " :- " + m.getValue());
         }
