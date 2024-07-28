@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/AbstractFactoryPattern/AbstractFactoryPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/FactoryPattern/AbstractFactoryPattern/AbstractFactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/AdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/AdapterPattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lld/LLD/AmazonShopping/AmazonShopping.iml" filepath="$PROJECT_DIR$/lld/LLD/AmazonShopping/AmazonShopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/AmazonShopping/AmazonShopping.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/AmazonShopping/AmazonShopping.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/ArticulationPointInGraph/ArticulationPointInGraph.iml" filepath="$PROJECT_DIR$/misc/ArticulationPointInGraph/ArticulationPointInGraph.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/AtomicVariable/AtomicVariable.iml" filepath="$PROJECT_DIR$/concurrency/AtomicVariable/AtomicVariable.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/BehavioralPatterns.iml" filepath="$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/BehavioralPatterns.iml" />
@@ -19,9 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementation2/BuilderPatternImplementation2.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/BuilderPattern/BuilderPatternImplementation2/BuilderPatternImplementation2.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/CachedThreadPoolExecutor/CachedThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/concurrency/CachedThreadPoolExecutor/CachedThreadPoolExecutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/CallableAndFutureExample/CallableAndFutureExample.iml" filepath="$PROJECT_DIR$/concurrency/CallableAndFutureExample/CallableAndFutureExample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lld/LLD/CarParkingLot/CarParkingLot.iml" filepath="$PROJECT_DIR$/lld/LLD/CarParkingLot/CarParkingLot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/CarParkingLot/CarParkingLot.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/CarParkingLot/CarParkingLot.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lld/LLD/Chess/Chess.iml" filepath="$PROJECT_DIR$/lld/LLD/Chess/Chess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/Chess/Chess.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/Chess/Chess.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ClassAdapterPattern/ClassAdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ClassAdapterPattern/ClassAdapterPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSin gleton/CloneablePreventionSin gleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSin gleton/CloneablePreventionSin gleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSingleton/CloneablePreventionSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/CloneablePreventionSingleton/CloneablePreventionSingleton.iml" />
@@ -37,7 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/misc/DijkstraAlgorithm/DijkstraAlgorithm.iml" filepath="$PROJECT_DIR$/misc/DijkstraAlgorithm/DijkstraAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/DiningPhilosophersProblem/DiningPhilosophersProblem.iml" filepath="$PROJECT_DIR$/concurrency/DiningPhilosophersProblem/DiningPhilosophersProblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EagerSingleton/EagerSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EagerSingleton/EagerSingleton.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lld/LLD/Elevator/Elevator.iml" filepath="$PROJECT_DIR$/lld/LLD/Elevator/Elevator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/Elevator/Elevator.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/Elevator/Elevator.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EnumSingleton/EnumSingleton.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/EnumSingleton/EnumSingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/Exchanger/Exchanger.iml" filepath="$PROJECT_DIR$/concurrency/Exchanger/Exchanger.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/FacadePattern/FacadePattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/FacadePattern/FacadePattern.iml" />
@@ -61,6 +61,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/LiveLock/LiveLock.iml" filepath="$PROJECT_DIR$/concurrency/LiveLock/LiveLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/Lock-ReentrantLock/Lock-ReentrantLock.iml" filepath="$PROJECT_DIR$/concurrency/Lock-ReentrantLock/Lock-ReentrantLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/LockingWithCustomObjects/LockingWithCustomObjects.iml" filepath="$PROJECT_DIR$/concurrency/LockingWithCustomObjects/LockingWithCustomObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/MachineCoding.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/MachineCoding.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/MergeSort/MergeSort.iml" filepath="$PROJECT_DIR$/misc/MergeSort/MergeSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/Minimum Window Substring/Minimum Window Substring.iml" filepath="$PROJECT_DIR$/misc/Minimum Window Substring/Minimum Window Substring.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ObjectAdapterPattern/ObjectAdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ObjectAdapterPattern/ObjectAdapterPattern.iml" />
@@ -89,8 +90,8 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/SingleThreadPoolExecutor/SingleThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/concurrency/SingleThreadPoolExecutor/SingleThreadPoolExecutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/SingletonPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/SingletonPattern/SingletonPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/LLD/SnakesAndLadder/SnakesAndLadder.iml" filepath="$PROJECT_DIR$/lld/LLD/SnakesAndLadder/SnakesAndLadder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lld/LLD/SnakesAndLadders/SnakesAndLadders.iml" filepath="$PROJECT_DIR$/lld/LLD/SnakesAndLadders/SnakesAndLadders.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lld/LLD/SplitWise/SplitWise.iml" filepath="$PROJECT_DIR$/lld/LLD/SplitWise/SplitWise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/SnakesAndLadders/SnakesAndLadders.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/SnakesAndLadders/SnakesAndLadders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/SplitWise/SplitWise.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/SplitWise/SplitWise.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/StoppingAThread/StoppingAThread.iml" filepath="$PROJECT_DIR$/concurrency/StoppingAThread/StoppingAThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/StoppingExecutors/StoppingExecutors.iml" filepath="$PROJECT_DIR$/concurrency/StoppingExecutors/StoppingExecutors.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/StrategyPattern/StrategyPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/StrategyPattern/StrategyPattern.iml" />
@@ -100,7 +101,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/SynchronizingAParticularBlockOfCodeOnlyUsingClassLevelLocking/SynchronizingAParticularBlockOfCodeOnlyUsingClassLevelLocking.iml" filepath="$PROJECT_DIR$/concurrency/SynchronizingAParticularBlockOfCodeOnlyUsingClassLevelLocking/SynchronizingAParticularBlockOfCodeOnlyUsingClassLevelLocking.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/SynchronizingAParticularBlockOfCodeOnlyUsingObjectLevelLocking/SynchronizingAParticularBlockOfCodeOnlyUsingObjectLevelLocking.iml" filepath="$PROJECT_DIR$/concurrency/SynchronizingAParticularBlockOfCodeOnlyUsingObjectLevelLocking/SynchronizingAParticularBlockOfCodeOnlyUsingObjectLevelLocking.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/ThreadPriorityAndJavaThreadScheduler/ThreadPriorityAndJavaThreadScheduler.iml" filepath="$PROJECT_DIR$/concurrency/ThreadPriorityAndJavaThreadScheduler/ThreadPriorityAndJavaThreadScheduler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lld/LLD/TicTacToe/TicTacToe.iml" filepath="$PROJECT_DIR$/lld/LLD/TicTacToe/TicTacToe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/TicTacToe/TicTacToe.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/TicTacToe/TicTacToe.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/VolatileKeyword/VolatileKeyword.iml" filepath="$PROJECT_DIR$/concurrency/VolatileKeyword/VolatileKeyword.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/WaitAndNotify/WaitAndNotify.iml" filepath="$PROJECT_DIR$/concurrency/WaitAndNotify/WaitAndNotify.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/WaitAndNotifyAll/WaitAndNotifyAll.iml" filepath="$PROJECT_DIR$/concurrency/WaitAndNotifyAll/WaitAndNotifyAll.iml" />

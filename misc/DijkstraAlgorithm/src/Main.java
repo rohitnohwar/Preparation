@@ -34,7 +34,7 @@ class Dijkstra {
                 int adjNode = nei[0];
                 int adjDist = nei[1];
 
-                if (visited[adjNode] == false && currDist + adjDist < dist[adjNode]) {
+                if (visited[adjNode] == false) {
                     dist[adjNode] = currDist + adjDist;
                     parent[adjNode] = currNode;
 
@@ -44,17 +44,40 @@ class Dijkstra {
             }
         }
 
-//        System.out.println("For parent");
-//        for (int i = 0; i < V; i++) {
-//            System.out.println(i + " parent:- " + parent[i]);
-//        }
+//        For parent
+//        0 parent:- 0
+//        1 parent:- 0
+//        2 parent:- 1
+//        3 parent:- 2
+//        4 parent:- 5
+//        5 parent:- 6
+//        6 parent:- 7
+//        7 parent:- 0
+//        8 parent:- 2
 //
-//        System.out.println("");
-//        System.out.println("");
-//        System.out.println("For distance");
-//        for (int i = 0; i < V; i++) {
-//            System.out.println(i + " distance:- " + dist[i]);
-//        }
+//
+//        For distance
+//        0 distance:- 0
+//        1 distance:- 4
+//        2 distance:- 12
+//        3 distance:- 19
+//        4 distance:- 21
+//        5 distance:- 11
+//        6 distance:- 9
+//        7 distance:- 8
+//        8 distance:- 14
+
+        System.out.println("For parent");
+        for (int i = 0; i < V; i++) {
+            System.out.println(i + " parent:- " + parent[i]);
+        }
+
+        System.out.println("");
+        System.out.println("");
+        System.out.println("For distance");
+        for (int i = 0; i < V; i++) {
+            System.out.println(i + " distance:- " + dist[i]);
+        }
     }
 }
 
