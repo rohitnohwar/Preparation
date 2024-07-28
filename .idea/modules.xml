@@ -63,6 +63,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrency/LockingWithCustomObjects/LockingWithCustomObjects.iml" filepath="$PROJECT_DIR$/concurrency/LockingWithCustomObjects/LockingWithCustomObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/MachineCoding.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/MachineCoding.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/MergeSort/MergeSort.iml" filepath="$PROJECT_DIR$/misc/MergeSort/MergeSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/MessageBroker/MessageBroker.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/MessageBroker/MessageBroker.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/Minimum Window Substring/Minimum Window Substring.iml" filepath="$PROJECT_DIR$/misc/Minimum Window Substring/Minimum Window Substring.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ObjectAdapterPattern/ObjectAdapterPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/StructuralPatterns/AdapterPattern/ObjectAdapterPattern/ObjectAdapterPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/CreationalPatterns/ObjectPoolPattern/ObjectPoolPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/CreationalPatterns/ObjectPoolPattern/ObjectPoolPattern.iml" />
