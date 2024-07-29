@@ -93,6 +93,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/LLD/SnakesAndLadder/SnakesAndLadder.iml" filepath="$PROJECT_DIR$/lld/LLD/SnakesAndLadder/SnakesAndLadder.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/SnakesAndLadders/SnakesAndLadders.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/SnakesAndLadders/SnakesAndLadders.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/SplitWise/SplitWise.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/SplitWise/SplitWise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/systemdesign/SpyneSystemDesignQuestion/SpyneSystemDesignQuestion.iml" filepath="$PROJECT_DIR$/systemdesign/SpyneSystemDesignQuestion/SpyneSystemDesignQuestion.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/StoppingAThread/StoppingAThread.iml" filepath="$PROJECT_DIR$/concurrency/StoppingAThread/StoppingAThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/StoppingExecutors/StoppingExecutors.iml" filepath="$PROJECT_DIR$/concurrency/StoppingExecutors/StoppingExecutors.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/StrategyPattern/StrategyPattern.iml" filepath="$PROJECT_DIR$/lld/Patterns/BehavioralPatterns/StrategyPattern/StrategyPattern.iml" />
@@ -113,6 +114,7 @@
       <module fileurl="file://$PROJECT_DIR$/graph/graph.iml" filepath="$PROJECT_DIR$/graph/graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/misc/misc.iml" filepath="$PROJECT_DIR$/misc/misc.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/producercon.iml" filepath="$PROJECT_DIR$/lld/producercon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/systemdesign/systemdesign.iml" filepath="$PROJECT_DIR$/systemdesign/systemdesign.iml" />
     </modules>
   </component>
 </project>
