@@ -1,1 +1,3 @@
 Builder, Singleton, (Factory Method, Simple Factory/Abstract Factory), Observer, Facade
+
+SOLID principles, DRY principles, SLAP priciple, UML diagram
