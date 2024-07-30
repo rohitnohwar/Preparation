@@ -1,0 +1,1 @@
+Builder, Singleton, (Factory Method, Simple Factory/Abstract Factory), Observer, Facade
