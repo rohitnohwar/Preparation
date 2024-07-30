@@ -1,3 +1,8 @@
 Builder, Singleton, (Factory Method, Simple Factory/Abstract Factory), Observer, Facade
 
+
+Object Oriented Principles
 SOLID principles, DRY principles, SLAP priciple, UML diagram
+
+
+SplitWise, MessageBroker, CarParkingLot, SnakesAndLadder. Practice these 4 in machine coding. You will be able to tackle most of the unseen questions after that Only these many design patterns for LLD are enough
