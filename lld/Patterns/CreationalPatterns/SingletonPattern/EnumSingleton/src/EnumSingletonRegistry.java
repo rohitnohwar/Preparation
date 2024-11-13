@@ -4,7 +4,7 @@ public enum EnumSingletonRegistry {
         System.out.println("hmm");
     }
 
-    private EnumSingletonRegistry() {
+    EnumSingletonRegistry() {
         System.out.println("here");
     }
 }

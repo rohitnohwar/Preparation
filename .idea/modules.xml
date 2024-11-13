@@ -94,6 +94,7 @@
       <module fileurl="file://$PROJECT_DIR$/lld/LLD/SnakesAndLadder/SnakesAndLadder.iml" filepath="$PROJECT_DIR$/lld/LLD/SnakesAndLadder/SnakesAndLadder.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/SnakesAndLadders/SnakesAndLadders.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/SnakesAndLadders/SnakesAndLadders.iml" />
       <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/SplitWise/SplitWise.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/SplitWise/SplitWise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lld/MachineCoding/SplitWise2/SplitWise2.iml" filepath="$PROJECT_DIR$/lld/MachineCoding/SplitWise2/SplitWise2.iml" />
       <module fileurl="file://$PROJECT_DIR$/systemdesign/SpyneSystemDesignQuestion/SpyneSystemDesignQuestion.iml" filepath="$PROJECT_DIR$/systemdesign/SpyneSystemDesignQuestion/SpyneSystemDesignQuestion.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/StoppingAThread/StoppingAThread.iml" filepath="$PROJECT_DIR$/concurrency/StoppingAThread/StoppingAThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/StoppingExecutors/StoppingExecutors.iml" filepath="$PROJECT_DIR$/concurrency/StoppingExecutors/StoppingExecutors.iml" />

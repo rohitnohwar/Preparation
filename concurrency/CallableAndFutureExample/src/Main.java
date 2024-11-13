@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
-class Worker implements Callable<Integer>{
+class Worker implements Callable{
 
     int counter = 0;
     private int i;
@@ -14,7 +14,7 @@ class Worker implements Callable<Integer>{
         this.i = i;
     }
 
-    public Integer call() {
+    public String call() {
 //        if(i%2==1) {
 //            try {
 //                Thread.currentThread().sleep(1000);
@@ -22,7 +22,7 @@ class Worker implements Callable<Integer>{
 //                throw new RuntimeException(e);
 //            }
 //        }
-        return i;
+        return "j";
     }
 }
 
@@ -33,11 +33,11 @@ public class Main {
 
         Worker worker = new Worker();
 
-        List<Future<Integer>> list = new ArrayList<>();
+        List<Future<Long>> list = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
-            Future<Integer> future = executorService.submit(worker);
+            Future<Long> future = executorService.submit(worker);
             list.add(future);
-//            System.out.println(future.get()); // Getting will make the execution serial
+            System.out.println(future.get()); // Getting will make the execution serial
         }
     }
 }

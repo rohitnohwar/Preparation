@@ -1,7 +1,10 @@
 package a;
 
-public class Helper {
-    void s(int[] s) {
-        s=new int[]{3};
+public class Helper{
+    static {
+        System.out.println("aaaaaaaaaaaaaaaa");
+    }
+    public void a() {
+
     }
 }

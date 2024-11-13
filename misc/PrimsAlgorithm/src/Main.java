@@ -12,12 +12,12 @@ class Prim {
             }
         });
 
-//        int[] parent = new int[V];
-//        for (int i = 0; i < V; i++) parent[i] = i;
-//
-//        int[] weight = new int[V];
-//        for (int i = 0; i < V; i++) weight[i] = Integer.MAX_VALUE;
-//        weight[0] = 0;
+        int[] parent = new int[V];
+        for (int i = 0; i < V; i++) parent[i] = i;
+
+        int[] weight = new int[V];
+        for (int i = 0; i < V; i++) weight[i] = Integer.MAX_VALUE;
+        weight[0] = 0;
 
         int sum = 0;
 
@@ -27,7 +27,7 @@ class Prim {
 
         while (!pq.isEmpty()) {
             int[] curr = pq.remove();
-            int currNode = curr[0];
+            int currNode = curr[0];kl
             int currDist = curr[1];
 
             if (visited[currNode] == true) continue;
@@ -39,19 +39,19 @@ class Prim {
                 int adjNode = nei[0];
                 int adjDist = nei[1];
 
-                if (visited[adjNode] == false /*&& adjDist < weight[adjNode]*/) {
-                    //weight[adjNode] = adjDist;
-                    //parent[adjNode] = currNode;
+                if (visited[adjNode] == false && adjDist < weight[adjNode]) {
+                    weight[adjNode] = adjDist;
+                    parent[adjNode] = currNode;
                     pq.add(new int[]{adjNode, adjDist});
                 }
             }
         }
 
-//        System.out.println(sum);
-//
-//        for (int i = 0; i < V; i++) {
-//            System.out.println(parent[i] + " :- " + i);
-//        }
+        System.out.println(sum);
+
+        for (int i = 0; i < V; i++) {
+            System.out.println(parent[i] + " :- " + i);
+        }
 
         //Commented out code could be used to reconstruct the minimum spanning tree by points with weight
     }

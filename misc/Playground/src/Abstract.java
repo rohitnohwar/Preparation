@@ -1,7 +1,6 @@
-public abstract class Abstract {
-    abstract void a();
+public interface Abstract<T extends String> {
 
-    void b() {
+    void a();
 
-    }
+    void b();
 }

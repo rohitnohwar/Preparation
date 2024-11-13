@@ -34,7 +34,7 @@ class Dijkstra {
                 int adjNode = nei[0];
                 int adjDist = nei[1];
 
-                if (visited[adjNode] == false) {
+                if (visited[adjNode] == false && dist[adjNode] > dist[currNode] + adjDist) {
                     dist[adjNode] = currDist + adjDist;
                     parent[adjNode] = currNode;
 
