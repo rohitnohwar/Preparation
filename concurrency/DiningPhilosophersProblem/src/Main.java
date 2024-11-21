@@ -1,6 +1,7 @@
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -12,8 +13,16 @@ class Fork {
         lock = new ReentrantLock();
     }
 
-    public void pick() {
-        lock.lock();
+    public boolean pick() {
+        try {
+            if (lock.tryLock(100, TimeUnit.MILLISECONDS)) {
+                return true;
+            }
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        return false;
     }
 
     public void release() {
@@ -51,17 +60,13 @@ class Philosopher implements Runnable {
     @Override
     public void run() {
         while (true) {
-            fork[0].pick();
-            System.out.println(name + " picked up " + fork[0].name);
-            fork[1].pick();
-            System.out.println(name + " picked up " + fork[1].name);
-
-            eat();
-
-            fork[0].release();
-            System.out.println(name + " released " + fork[0].name);
-            fork[1].release();
-            System.out.println(name + " released " + fork[1].name);
+            if (fork[0].pick()) {
+                if (fork[1].pick()) {
+                    eat();
+                    fork[1].release();
+                }
+                fork[0].release();
+            }
 
             think();
         }
