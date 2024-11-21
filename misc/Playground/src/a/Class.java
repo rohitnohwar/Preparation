@@ -1,5 +1,7 @@
 package a;
 
-public class Class<T extends Integer> {
+public class Class<T extends String> {
+    Class(int a) {
 
+    }
 }
