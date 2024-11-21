@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
-class Worker implements Callable{
+class Worker implements Callable<Long>{
 
     int counter = 0;
     private int i;
@@ -14,7 +14,7 @@ class Worker implements Callable{
         this.i = i;
     }
 
-    public String call() {
+    public Long call() {
 //        if(i%2==1) {
 //            try {
 //                Thread.currentThread().sleep(1000);
@@ -22,7 +22,7 @@ class Worker implements Callable{
 //                throw new RuntimeException(e);
 //            }
 //        }
-        return "j";
+        return 688L;
     }
 }
 
