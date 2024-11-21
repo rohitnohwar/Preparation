@@ -27,7 +27,7 @@ class Prim {
 
         while (!pq.isEmpty()) {
             int[] curr = pq.remove();
-            int currNode = curr[0];kl
+            int currNode = curr[0];
             int currDist = curr[1];
 
             if (visited[currNode] == true) continue;
@@ -39,7 +39,7 @@ class Prim {
                 int adjNode = nei[0];
                 int adjDist = nei[1];
 
-                if (visited[adjNode] == false && adjDist < weight[adjNode]) {
+                if (visited[adjNode] == false /*&& adjDist < weight[adjNode]*/) {
                     weight[adjNode] = adjDist;
                     parent[adjNode] = currNode;
                     pq.add(new int[]{adjNode, adjDist});
@@ -49,13 +49,28 @@ class Prim {
 
         System.out.println(sum);
 
+        System.out.println("For parent");
         for (int i = 0; i < V; i++) {
             System.out.println(parent[i] + " :- " + i);
         }
 
-        //Commented out code could be used to reconstruct the minimum spanning tree by points with weight
+        System.out.println("Weight");
+        for (int i = 0; i < V; i++) {
+            System.out.println(i + " :- " + weight[i]);
+        }
     }
 }
+
+//37
+//        0 :- 0
+//        0 :- 1
+//        5 :- 2
+//        2 :- 3
+//        3 :- 4
+//        6 :- 5
+//        7 :- 6
+//        0 :- 7
+//        2 :- 8
 
 
 public class Main {
