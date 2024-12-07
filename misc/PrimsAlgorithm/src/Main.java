@@ -39,7 +39,7 @@ class Prim {
                 int adjNode = nei[0];
                 int adjDist = nei[1];
 
-                if (visited[adjNode] == false /*&& adjDist < weight[adjNode]*/) {
+                if (visited[adjNode] == false && adjDist < weight[adjNode]) {
                     weight[adjNode] = adjDist;
                     parent[adjNode] = currNode;
                     pq.add(new int[]{adjNode, adjDist});
