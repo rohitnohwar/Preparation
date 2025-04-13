@@ -9,5 +9,10 @@ public class Client {
         System.out.println("User first name:- "+userDtoCreatedByBuilderPattern.getFirstName());
         System.out.println("User last name:- "+userDtoCreatedByBuilderPattern.getLastName());
         System.out.println("User age:- "+userDtoCreatedByBuilderPattern.getAge());
+        UserDto userDtoCreatedByBuilderPattern2 = UserDto.getBuilder().fillFirstName("Ro").fillLastName("No").build();
+        System.out.println("User first name:- "+userDtoCreatedByBuilderPattern2.getFirstName());
+        System.out.println("User last name:- "+userDtoCreatedByBuilderPattern2.getLastName());
+        System.out.println("User age:- "+userDtoCreatedByBuilderPattern2.getAge());
+
     }
 }

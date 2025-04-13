@@ -11,7 +11,7 @@ public class A implements B {
     }
 
     public void a1() {
-        B.super.a1();
+//        B.super.a1();
     }
 
     public void a2() {

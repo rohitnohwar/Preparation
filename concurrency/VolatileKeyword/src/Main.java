@@ -24,7 +24,7 @@ class Worker implements Runnable{
 // Two threads :- t1 and the main thread
 public class Main {
     public static void main(String[] args) {
-        Worker worker = new Worker();
+        Runnable worker = new Worker();
 
         Thread t1 = new Thread(worker);
 
@@ -35,7 +35,7 @@ public class Main {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        worker.setTerminatedTrue();
+        ((Worker)worker).setTerminatedTrue();
         System.out.println("Algorithm has been terminated");
     }
 }
