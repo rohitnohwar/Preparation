@@ -64,7 +64,7 @@ class KruskalMinimumSpanningTree {
             }
         }
 
-        System.out.println("Wieght:- " + weight);
+        System.out.println("Weight:- " + weight);
         System.out.println(" ");
 
         for (int[] edge: mst) {
