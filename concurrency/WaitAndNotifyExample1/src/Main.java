@@ -36,6 +36,7 @@ class WaitAndNotify {
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
+            System.out.println("Still in process3 after catch try-block.");
         }
     }
 }
